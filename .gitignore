@@ -1,0 +1,4 @@
+/pkg/
+todolist.mp
+.byebug_history
+Gemfile.lock

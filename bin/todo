@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+Dir['./lib/**/*.rb'].each { |f| require(f) }
+
+TodoList.load
+Main.start(ARGV)
+TodoList.dump
